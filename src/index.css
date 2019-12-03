@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #212121;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App {
+  background: #8bbee8ff;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #fff;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar h1 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.recipe-list {
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.recipe-list {
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.recipe-list ul {
+  padding: 1px;
+  list-style-type: none;
+}
+.recipe-list li {
+  background: #606060ff;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.recipe-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.recipe-list .ingredients {
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty {
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #fff;
+  color: #606060ff;
+  border: 0;
+  resize: vertical;
+}
+
+.button__group {
+  padding: 15px 0;
+}
+
+.BottomNav {
+  text-align: center;
 }

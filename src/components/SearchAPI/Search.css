@@ -1,0 +1,44 @@
+.recipe_output {
+  background: #606060ff;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.recipes p a {
+  text-decoration: none;
+  color: #8bbee8;
+  font-weight: bold;
+}
+
+.recipes ul {
+  list-style: decimal;
+}
+
+.recipes ul li {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.recipes h2 {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.recipes img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.search {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  max-width: 255px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
