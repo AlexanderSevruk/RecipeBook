@@ -90,3 +90,15 @@ textarea {
 .BottomNav {
   text-align: center;
 }
+
+.output {
+  line-height: 28px;
+}
+
+.title {
+  text-align: center;
+}
+
+.delete-button {
+  text-align: center;
+}

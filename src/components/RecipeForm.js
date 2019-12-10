@@ -20,7 +20,6 @@ const NewRecipeForm = () => {
     <form onSubmit={handleSubmit}>
       <TextField
         style={{ margin: "12px 0" }}
-        inputProps={{ "aria-label": "description" }}
         id="standard-basic"
         color="primary"
         fullWidth
@@ -32,10 +31,10 @@ const NewRecipeForm = () => {
 
       <TextField
         style={{ margin: "12px 0" }}
-        inputProps={{ "aria-label": "description" }}
         id="standard-basic"
         color="primary"
         fullWidth
+        multiline
         label="Ingredients"
         value={ingredient}
         onChange={e => setIngredient(e.target.value)}
@@ -47,7 +46,6 @@ const NewRecipeForm = () => {
         id="standard-multiline-flexible"
         multiline
         fullWidth
-        rowsMax="4"
         value={direction}
         onChange={e => setDirection(e.target.value)}
       />
