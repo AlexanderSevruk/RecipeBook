@@ -9,13 +9,35 @@ export default function BottomNav() {
     <Grid className="button__group">
       <ButtonGroup size="large" aria-label="large contained button group">
         <Link href="#" underline="none">
-          <Button color="primary"> create </Button>
+          <Button
+            style={{
+              color: "#28262C",
+              fontWeight: "bold"
+            }}
+          >
+            {" "}
+            create{" "}
+          </Button>
         </Link>
         <Link href="#/search" underline="none">
-          <Button color="primary">search</Button>
+          <Button
+            style={{
+              color: "#28262C",
+              fontWeight: "bold"
+            }}
+          >
+            search
+          </Button>
         </Link>
         <Link href="#/archive" underline="none">
-          <Button color="primary">archive</Button>
+          <Button
+            style={{
+              color: "#28262C",
+              fontWeight: "bold"
+            }}
+          >
+            archive
+          </Button>
         </Link>
       </ButtonGroup>
     </Grid>

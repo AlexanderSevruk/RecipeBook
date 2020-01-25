@@ -5,15 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #212121;
+  background: #28262c;
 }
 
 .App {
-  background: #8bbee8ff;
+  background: #d4c2fc;
   margin: 20px auto;
   width: 90%;
   max-width: 700px;
-  color: #fff;
 }
 
 .navbar {
@@ -22,13 +21,13 @@ body {
 }
 
 .navbar p {
-  color: #fff;
+  color: #28262c;
   font-weight: bold;
 }
 
 .navbar h1 {
   margin: 10px 0;
-  color: #fff;
+  color: #28262c;
 }
 
 .recipe-list {
@@ -46,22 +45,22 @@ body {
   list-style-type: none;
 }
 .recipe-list li {
-  background: #606060ff;
+  background: #28262c;
   border-radius: 4px;
   padding: 10px;
   margin: 20px 0;
-  color: #fff;
+  color: #f9f5ff;
   font-weight: bold;
 }
 
 .recipe-list .title {
   font-weight: bold;
-  color: #fff;
+  color: #f9f5ff;
   font-size: 1.2em;
 }
 .recipe-list .ingredients {
   font-size: 0.9em;
-  color: #ddd;
+  color: #f9f5ff;
 }
 .empty {
   margin: 20px;
@@ -77,8 +76,6 @@ textarea {
   padding: 10px;
   box-sizing: border-box;
   margin: 6px 0;
-  background: #fff;
-  color: #606060ff;
   border: 0;
   resize: vertical;
 }
@@ -92,7 +89,7 @@ textarea {
 }
 
 .output {
-  line-height: 28px;
+  line-height: 26px;
 }
 
 .title {

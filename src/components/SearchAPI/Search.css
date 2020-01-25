@@ -1,5 +1,5 @@
 .recipe_output {
-  background: #606060ff;
+  background: #28262c;
   border-radius: 4px;
   padding: 10px;
   margin: 20px 10px;
@@ -8,9 +8,14 @@
   justify-content: center;
 }
 
+.recipes p {
+  color: #f9f5ff;
+  font-weight: bold;
+}
+
 .recipes p a {
   text-decoration: none;
-  color: #8bbee8;
+  color: #998fc7;
   font-weight: bold;
 }
 
@@ -21,15 +26,16 @@
 .recipes ul li {
   text-align: left;
   padding-right: 20px;
+  color: #f9f5ff;
 }
 
 .recipes h2 {
-  color: #fff;
+  color: #f9f5ff;
   font-size: 1.2em;
 }
 
 .recipes img {
-  max-width: 300px;
+  max-width: 400px;
   width: 100%;
   border-radius: 4px;
 }

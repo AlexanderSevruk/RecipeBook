@@ -9,10 +9,9 @@ import "./Search.css";
 const Search = () => {
   const APP_ID = "6bb717cb";
   const APP_KEY = "83f22d27bb00b6d3afebeeca94d8da7a";
-
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("banana");
+  const [query, setQuery] = useState("Pasta");
 
   useEffect(() => {
     getRecipes();

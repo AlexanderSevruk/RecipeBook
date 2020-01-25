@@ -15,6 +15,10 @@ export default function IconLabelButtons() {
   return (
     <div>
       <Button
+        style={{
+          background: "#28262C",
+          color: "#F9F5FF"
+        }}
         type="submit"
         variant="contained"
         color="primary"

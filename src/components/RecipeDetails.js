@@ -21,7 +21,10 @@ const RecipeDetails = ({ recipe }) => {
         <Button
           onClick={() => dispatch({ type: "REMOVE_RECIPE", id: recipe.id })}
           variant="contained"
-          color="primary"
+          style={{
+            background: "#998FC7",
+            color: "#F9F5FF"
+          }}
           startIcon={<DeleteIcon />}
         >
           Delete

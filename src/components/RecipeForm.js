@@ -30,7 +30,9 @@ const NewRecipeForm = () => {
       />
 
       <TextField
-        style={{ margin: "12px 0" }}
+        style={{
+          margin: "12px 0"
+        }}
         id="standard-basic"
         color="primary"
         fullWidth
